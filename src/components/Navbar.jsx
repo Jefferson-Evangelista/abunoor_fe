@@ -22,10 +22,10 @@ const Navbar = () => {
     },
   ]
   return (
-    <nav className='relative container max-w-full w-full flex justify-between items-center h-[70px] bg-[#DA1698] p-16'>
+    <nav className='relative container max-w-full w-full flex justify-between h-[70px] items-center bg-[#DA1698] p-16'>
       <div>
         <h1 className='font-poppins font-bold text-white text-[20px] uppercase '>Abu Noor <br /><span className='text-[#EFBC26]'>School</span></h1>
-        <div className='absolute left-44 top-10 z-20 bg-white w-[150px] h-[150px] border-[20px] border-[#EFBC26] rounded-full flex justify-center items-center'>
+        <div className='absolute left-44 top-8 z-20 bg-white w-[150px] h-[150px] border-[20px] border-[#EFBC26] rounded-full flex justify-center items-center'>
           <h1>logo</h1>
         </div>
       </div>
