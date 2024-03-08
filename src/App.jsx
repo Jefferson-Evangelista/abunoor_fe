@@ -30,9 +30,12 @@ const App = () => {
       <div className={`${style.padding} bg-[#9CD24A]`}>
         <Testimonials />
       </div>
-        
+      <div className={`${style.padding} bg-[#F0F0F0]`}>
         <News />
+      </div >
+      <div className={`${style.padding} bg-[#DA1698]`}>
         <Footer />
+      </div >
       
     </main>
   )

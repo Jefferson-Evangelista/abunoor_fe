@@ -7,6 +7,9 @@ import ctaimg2 from './cta/ctaimg2.png'
 import ctaimg3 from './cta/ctaimg3.png'
 import aboutimg1 from './about/aboutimg1.png'
 import testimonialsimg1 from './testimonials/testimonialsimg1.png'
+import footerimg1 from './footer/footerimg1.png'
+import footerimg2 from './footer/footerimg2.png'
+import pin from './footer/pin.png'
 
 
 export {
@@ -19,5 +22,8 @@ export {
     ctaimg3,
     aboutimg1,
     testimonialsimg1,
+    footerimg1,
+    footerimg2,
+    pin
     
 }
