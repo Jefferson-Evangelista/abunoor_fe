@@ -23,9 +23,9 @@ const NewsCard = (props) => (
 
 const News = () => {
   return (
-    <div className='container max-w-full w-3/4 mx-auto flex flex-col items-center'>
+    <div className='container max-w-full w-full mx-auto p-12 flex flex-col items-center'>
       <h1 className={`${style.title} mb-8`}>News & Events</h1>
-      <div className='grid grid-cols-3 place-items-center gap-y-20 w-full'>
+      <div className='grid md:grid-cols-3 sm:grid-cols-2 place-items-center gap-y-20 md:w-5/6 w-full'>
         <NewsCard img={hero1} title='ANG NAGNAKAW NG NAWAWALANG BATO' author='Anak ng Tokwa' date='January 12, 2020'/>
         <NewsCard img={hero2} title='ANG NAGNAKAW NG NAWAWALANG BATO' author='Anak ng Tokwa' date='January 12, 2020'/>
         <NewsCard img={hero3} title='ANG NAGNAKAW NG NAWAWALANG BATO' author='Anak ng Tokwa' date='January 12, 2020'/>
