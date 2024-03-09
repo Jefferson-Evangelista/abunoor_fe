@@ -17,10 +17,12 @@ import {
   hero3,
   hero4
 } from '../assets/images'
+import style from '../style';
 
 const Hero = () => {
   return (
-    <div className='container max-w-full w-full h-fit  relative '>
+    <div className='container max-w-full w-full h-fit relative'>
+      <div className='absolute top-0 z-10 bg-[rgba(0,0,0,0.4)] h-full w-full'/>
       <Swiper
       // install Swiper modules
       modules={[Autoplay, EffectFade]}
@@ -34,11 +36,11 @@ const Hero = () => {
         <SwiperSlide><img src={hero4} alt="" className='w-full h-[600px] object-cover' /></SwiperSlide>
       
       </Swiper>
-      <div className='absolute top-0 z-10 bg-[rgba(0,0,0,0.4)] h-full w-full'/>
+      
       <motion.div animate={{ x: 0  }} initial={false}>
-      <div className='absolute z-10 top-48 left-20 w-1/2'>
-        <h1 className='font-poppins font-bold text-white text-[60px] leading-[5rem]'>Get ready for a world of wonder and fun!</h1>
-        <h2 className='font-poppins text-white text-[18px]'>Where Imagination Takes Flight!</h2>
+      <div className='absolute z-10 sm:top-48 top-60 sm:left-20 left-12 sm:w-1/2 w-3/4'>
+        <h1 className={`${style.titleWhite} sm:leading-[1.3em] leading-[1.5em]`}>Get ready for a world of wonder and fun!</h1>
+        <h2 className='font-poppins text-white sm:text-[21px] text-[18px]'>Where Imagination Takes Flight!</h2>
       </div>
       </motion.div>
 

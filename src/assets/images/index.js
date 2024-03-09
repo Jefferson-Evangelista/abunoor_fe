@@ -10,6 +10,8 @@ import testimonialsimg1 from './testimonials/testimonialsimg1.png'
 import footerimg1 from './footer/footerimg1.png'
 import footerimg2 from './footer/footerimg2.png'
 import pin from './footer/pin.png'
+import close from './navbar/close.svg'
+import menu from './navbar/menu.svg'
 
 
 export {
@@ -24,6 +26,8 @@ export {
     testimonialsimg1,
     footerimg1,
     footerimg2,
-    pin
+    pin,
+    close,
+    menu,
     
 }

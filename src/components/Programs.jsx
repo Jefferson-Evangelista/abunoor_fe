@@ -21,8 +21,8 @@ const ProgramCard = (props) => (
 
 const Programs = () => {
   return (
-    <div className='container max-w-full w-full h-fit'>
-      <div className='mb-6'> 
+    <div className='container max-w-full w-full h-fit md:my-0 my-12 flex flex-col items-center'>
+      <div className='sm:w-full w-5/6 mb-6'> 
         <h1 className={`${style.title} text-center`}>Programs</h1>
         <p style={{color:'#292929'}} className={`${style.para} text-center`}>Explore a world of opportunities for your child through our varied and enriching programs.</p>
       </div>

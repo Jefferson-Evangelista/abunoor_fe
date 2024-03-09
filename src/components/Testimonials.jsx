@@ -12,13 +12,13 @@ import 'swiper/css/pagination';
 
 
 const TestimonialsCard = (props) => (
-  <div className="bg-[rgba(255,255,255,0.65)] w-full h-[400px] flex flex-col justify-center items-center text-center p-14">
-      <p className={`${style.subtitle2} text-[24px]`}>{ props.para }</p>
-      <div className="flex w-fit mt-8 space-x-4 items-center">
-        <img src={props.img} alt={props.name} className="w-[60px] h-[60px] rounded-full"/>
-        <div className="text-start">
-          <h1 className={`${style.subtitle2} text-[16px]`}>{ props.name }</h1>
-          <p className={`${style.para2} text-[12px]`}>{ props.jobtitle}</p>
+  <div className="bg-[rgba(255,255,255,0.65)] w-full h-[400px] flex flex-col justify-center items-center text-center sm:p-12 px-8 ">
+      <p className={`${style.subtitle2} md:text-[24px] sm:text-[18px] text-[14px]`}>{ props.para }</p>
+      <div className="flex sm:w-fit w-3/4 mt-8 space-x-4 justify-center items-center">
+        <img src={props.img} alt={props.name} className="md:w-[60px] md:h-[60px] w-[45px] h-[45px] rounded-full"/>
+        <div className="text-start w-fit">
+          <h1 className={`${style.subtitle2} sm:text-[16px] text-[12px]`}>{ props.name }</h1>
+          <p className={`${style.para2} text-[10px] `}>{ props.jobtitle}</p>
         </div>
       </div>
   </div>
@@ -26,10 +26,9 @@ const TestimonialsCard = (props) => (
 
 const Testimonials = () => {
   return (
-    <div className='container max-w-full w-full flex flex-col justify-center items-center px-20'>
+    <div className='container max-w-full w-full h-[500px] flex flex-col justify-center items-center md:px-0'>
       <h1 className={`${style.titleWhite} mb-4`}>Testimonials</h1>
       <Swiper
-      // install Swiper modules
       modules={[Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
