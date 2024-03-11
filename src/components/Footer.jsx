@@ -4,7 +4,7 @@ import {footerimg1, footerimg2} from '../assets/images'
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import { pin } from '../assets/images'
+import { pin, logo } from '../assets/images'
 import { Icon } from 'leaflet'
 
 
@@ -19,7 +19,7 @@ const Footer = () => {
       <div className='flex md:flex-row flex-col justify-around md:items-start items-center m-6 md:gap-y-0 gap-y-8'>
         <div className='flex flex-col w-1/5 items-center'>
           <div className='bg-white w-[150px] h-[150px] border-[20px] border-[#EFBC26] rounded-full flex justify-center items-center mb-4'>
-            <h1 style={{color: 'black'}}>logo</h1>
+            <img src={ logo } alt="" className=' rounded-full'/>
           </div>
           <h1 style={{color: 'white'}} className={`${style.title2} text-[20px] md:text-start text-center`}>ABU NOOR <br /><span className='text-[#EFBC26]'>SCHOOL</span> </h1>
         </div>

@@ -12,6 +12,7 @@ import footerimg2 from './footer/footerimg2.png'
 import pin from './footer/pin.png'
 import close from './navbar/close.svg'
 import menu from './navbar/menu.svg'
+import logo from './navbar/logo.png'
 
 
 export {
@@ -29,5 +30,6 @@ export {
     pin,
     close,
     menu,
+    logo
     
 }

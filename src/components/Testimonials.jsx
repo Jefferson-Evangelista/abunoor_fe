@@ -27,7 +27,7 @@ const TestimonialsCard = (props) => (
 const Testimonials = () => {
   return (
     <div className='container max-w-full w-full h-[500px] flex flex-col justify-center items-center md:px-0'>
-      <h1 className={`${style.titleWhite} mb-4`}>Testimonials</h1>
+      <h1 className={`${style.titleWhite2} md:text-[40px] text-[28px] mb-4`}>Testimonials</h1>
       <Swiper
       modules={[Pagination, Autoplay]}
       spaceBetween={50}

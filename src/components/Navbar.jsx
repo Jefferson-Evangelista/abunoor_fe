@@ -2,7 +2,7 @@
 import style from '../style'
 
 import { useState } from 'react'
-import { close , menu } from '../assets/images'
+import { close , menu, logo } from '../assets/images'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState (false)
@@ -29,8 +29,8 @@ const Navbar = () => {
     <nav className='relative container max-w-full w-full flex justify-between h-[70px] items-center bg-[#DA1698] sm:p-16 p-12'>
       <div>
         <h1 className={`${style.titleWhite2} text-[20px] uppercase`}>Abu Noor <br /><span className='text-[#EFBC26]'>School</span></h1>
-        <div className='absolute sm:left-44 left-48 top-8 z-20 bg-white sm:w-[150px] sm:h-[150px] w-[125px] h-[125px] border-[20px] border-[#EFBC26] rounded-full flex justify-center items-center'>
-          <h1>logo</h1>
+        <div className='absolute sm:left-44 xs:left-48 left-40 top-8 z-20 bg-white sm:w-[150px] sm:h-[150px] w-[125px] h-[125px] border-[20px] border-[#EFBC26] rounded-full flex justify-center items-center'>
+          <img src={ logo } alt="" className=' rounded-full'/>
         </div>
       </div>
 
